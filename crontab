@@ -1,0 +1,2 @@
+*/15 * * * * imapfilter -v > /var/log/imapfilter.log
+

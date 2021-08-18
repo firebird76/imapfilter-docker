@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  imapfilter:
+    build: .
+    volumes:
+       - /volume2/docker/imagefilter_docker/log:/var/log/
+       - /volume2/docker/imagefilter_docker/imapfilter:/root/.imapfilter
+
+
