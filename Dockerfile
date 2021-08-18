@@ -36,7 +36,7 @@ LABEL name="imagefilter"
 WORKDIR /root
 RUN mkdir .imapfilter
 COPY crontab /var/spool/cron/crontabs/root
-COPY imapfilter /root/.imapfilter 
+#COPY imapfilter /root/.imapfilter 
 RUN crontab /var/spool/cron/crontabs/root
 RUN service cron start
 CMD ["cron", "-f"]
