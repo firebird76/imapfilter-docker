@@ -1,5 +1,5 @@
 # set the base image
-FROM debian:buster-slim
+FROM debian:stable-slim
 
 # author
 #MAINTAINER Tobias Scharlewsky
